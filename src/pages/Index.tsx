@@ -236,9 +236,12 @@ const Index = () => {
               ? 'text-slate-800 game-title' 
               : 'text-white game-title-dark'
           }`}>
-            <span className="inline-block animate-float">P2P</span>{' '}
-            <span className="inline-block animate-float" style={{ animationDelay: '0.5s' }}>Football</span>
+            <span className="inline-block animate-float">HyperPear </span>{' '}
+            <span className="inline-block animate-float" style={{ animationDelay: '0.5s' }}>Strikers</span>
           </h1>
+          <br/>
+          <h3>P2P Real-Time Football Game</h3>
+          <br/>
           <p className={`text-lg mb-6 ${
             dayMode === 'day' ? 'text-slate-700' : 'text-cyan-300'
           }`}>
